@@ -11,8 +11,8 @@
 	width:205px;
 	height:56px;
 	position:absolute;
-	left:908px;
-	top:850px;
+	left:930px;
+	top:845px;
 	font-family:Arial;
 	text-align:center;
 	font-size:22px;
@@ -25,8 +25,8 @@
 	width:219px;
 	height:42px;
 	position:absolute;
-	left:651px;
-	top:867px;
+	left:670px;
+	top:845px;
 	font-family:Arial;
 	text-align:center;
 	font-size:22px;
@@ -39,8 +39,8 @@
 	width:324px;
 	height:45px;
 	position:absolute;
-	left:596px;
-	top:682px;
+	left:622px;
+	top:675px;
 	font-family:Arial;
 	text-align:center;
 	font-size:22px;
@@ -54,7 +54,7 @@
 	height:31px;
 	position:absolute;
 	left:879px;
-	top:682px;
+	top:675px;
 	font-family:Arial;
 	text-align:center;
 	font-size:22px;
@@ -68,7 +68,7 @@
 	height:40px;
 	position:absolute;
 	left:859px;
-	top:526px;
+	top:515px;
 	font-family:Arial;
 	text-align:center;
 	font-size:22px;
@@ -81,8 +81,8 @@
 	width:308px;
 	height:56px;
 	position:absolute;
-	left:609px;
-	top:524px;
+	left:630px;
+	top:515px;
 	font-family:Arial;
 	text-align:center;
 	font-size:22px;
@@ -95,7 +95,7 @@
 	width:177px;
 	height:40px;
 	position:absolute;
-	left:665px;
+	left:685px;
 	top:363px;
 	font-family:Arial;
 	text-align:center;
@@ -133,7 +133,7 @@
 	width:117px;
 	height:79px;
 	position:absolute;
-	left:693px;
+	left:720px;
 	top:756px;
 	background-image:url('../image/ANH_VIENTHAM.png');
 	background-repeat:no-repeat;
@@ -141,10 +141,10 @@
 }
 #e81_26 { 
 	opacity:1;
-	width:122px;
+	width:120px;
 	height:82px;
 	position:absolute;
-	left:688px;
+	left:720px;
 	top:585px;
 	background-image:url('../image/ANH_BDKH.png');
 	background-repeat:no-repeat;
@@ -153,21 +153,21 @@
 #e81_32 { 
 	opacity:1;
 	width:130px;
-	height:93px;
+	height:81px;
 	position:absolute;
 	left:962px;
-	top:579px;
+	top:585px;
 	background-image:url('../image/ANH_MOITRUONG.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #e81_24 { 
 	opacity:1;
-	width:130px;
-	height:99px;
+	width:120px;
+	height:81px;
 	position:absolute;
-	left:962px;
-	top:409px;
+	left:967px;
+	top:426px;
 	background-image:url('../image/ANH_KTTV.png');
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -177,7 +177,7 @@
 	width:121px;
 	height:81px;
 	position:absolute;
-	left:693px;
+	left:720px;
 	top:426px;
 	background-image:url('../image/ANH_TAINGUYENNUOC.png');
 	background-repeat:no-repeat;
@@ -196,10 +196,10 @@
 }
 #e148_3 { 
 	opacity:1;
-	width:108px;
+	width:120px;
 	height:82px;
 	position:absolute;
-	left:697px;
+	left:720px;
 	top:275px;
 	background-image:url('../image/ANH_DATDAI.png');
 	background-repeat:no-repeat;
@@ -212,7 +212,7 @@
 	height:56px;
 	position:absolute;
 	left:748px;
-	top:183px;
+	top:175px;
 	font-family:Arial;
 	text-align:center;
 	font-size:24px;
