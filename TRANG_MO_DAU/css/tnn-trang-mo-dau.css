@@ -241,3 +241,21 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+@media screen and (max-width: 767px){
+	#e146_12{
+		width: 100%;
+		background-size: contain;
+		height: 49px;
+	}
+	#e81_30 { top: 49px; }
+}
+
+@media screen and (max-width: 1024px){
+	#e146_12{
+		width: 100%;
+		background-size: contain;
+		height: 94px;
+	}
+	#e81_30 { top: 94px; }
+}
