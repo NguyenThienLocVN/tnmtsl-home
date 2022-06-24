@@ -1,44 +1,48 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Giám sát tài nguyên nước Sơn La</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Manuale:wght@500&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="./TRANG_MO_DAU/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./TRANG_MO_DAU/css/tnn-trang-mo-dau.css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
-
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-        <script src="https://unpkg.com/esri-leaflet@2.5.0/dist/esri-leaflet.js" integrity="sha512-ucw7Grpc+iEQZa711gcjgMBnmd9qju1CICsRaryvX7HJklK0pGl/prxKvtHwpgm5ZHdvAil7YPxI1oWPOWK3UQ==" crossorigin=""></script>
-    </head>
-    <body class="container p-0">
-        <div id="e146_11">
-            <span id="e148_25" class="font-weight-bold">Đo đạc bản đồ và thông tin địa lý</span>
-            <span id="e148_17" class="font-weight-bold">Viễn thám</span>
-            <span id="e148_13" class="font-weight-bold">Biến đổi khí hậu</span>
-            <span id="e148_22" class="font-weight-bold">Môi trường</span>
-            <a href="http://kttv.tainguyenmoitruongsonla.vn/" id="e148_21" class="font-weight-bold">Khí tượng thủy văn</a>
-            <a href="http://tnn.tainguyenmoitruongsonla.vn/" id="e148_11" class="font-weight-bold">Tài nguyên nước</a>
-            <span id="e148_7" class="font-weight-bold">Đất đai</span>
-            <span id="e148_20" class="font-weight-bold">Địa chất khoáng sản</span>
-            <div id="e81_36"></div>
-            <div id="e81_34"></div>
-            <div id="e81_26"></div>
-            <div id="e81_32"></div>
-            <a href="http://kttv.tainguyenmoitruongsonla.vn/" id="e81_24"></a>
-            <a href="http://tnn.tainguyenmoitruongsonla.vn/" id="e81_22"></a>
-            <div id="e148_5"></div>
-            <div id="e148_3"></div>
-            <span id="e77_49" class="font-weight-bold">QUẢN LÝ CƠ SỞ DỮ LIỆU TÀI NGUYÊN VÀ MÔI TRƯỜNG</span>
-            <div id="e81_30"></div>
-            <div id="e146_12"></div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống Quản lý CSDL tài nguyên môi trường Sơn La</title>
+    <link rel="stylesheet" href="./assets/css/tnn-trang-mo-dau.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/image/ANHSOTNMT.png" alt="">
+    </header>
+    <div class="main">
+        <div class="box box-1"></div>
+        <div class="box box-2"></div>
+        <div class="box box-3"></div>
+        <div class="box box-4"></div>
+        <aside class="nav-tab">
+            <h2 class="header">QUẢN LÝ CƠ SỞ DỮ LIỆU TÀI NGUYÊN VÀ MÔI TRƯỜNG</h2>
+            <ul class="nav">
+                <li class="nav-item">
+                    <img src="./assets/image/geological-sign.png" alt="">
+                    <a href="#">ĐẤT ĐAI, ĐO ĐẠC BẢN ĐỒ </a>
+                </li>
+                <li class="nav-item">
+                    <img src="./assets/image/env-sign.png" alt="">
+                    <a href="#"> MÔI TRƯỜNG </a>
+                </li>
+                <li class="nav-item">
+                    <img src="./assets/image/mineral-sign.png" alt="">
+                    <a href="#">TÀI NGUYÊN KHOÁNG SẢN </a>
+                </li>
+                <li class="nav-item">
+                    <img src="./assets/image/waterresources-sign.png" alt="">
+                    <a href="http://tnn.tainguyenmoitruongsonla.vn"> TÀI NGUYÊN NƯỚC </a> | <a href="http://kttv.tainguyenmoitruongsonla.vn"> KTTV & BĐKH </a>
+                </li>
+            </ul>
+        </aside>
+        <aside class="show-img">
+            <img class="img-1" src="./assets/image/image-home-1.png" alt="">
+            <img class="img-2" src="./assets/image/image-home-2.png" alt="">
+            <img class="img-3" src="./assets/image/image-home-3.png" alt="">
+            <img class="img-4" src="./assets/image/image-home-4.png" alt="">
+        </aside>
+    </div>
+</body>
 </html>

@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+body * img{
+    z-index: 100;
+}
+header img { height: 120px; width: 100vw; }
+.main{
+    height: calc(100vh - 130px);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-tab{
+    width: 50%;
+    padding: 0 0 0 120px;
+    z-index: 2;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #C61D1D;
+}
+.nav{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 0;
+}
+.nav li img{
+    width: 120px;
+    height: 100px;
+    margin: 0 15px 0 0;
+}
+.nav li a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: left;
+    color: #0a426e;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+.nav li a:hover {
+    border-bottom: 1px solid #0a426e;
+}
+.show-img img{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0px 5px 10px #ccc;
+}
+.show-img .img-1{
+    right: 60px;
+    top: 45px;
+}
+.show-img .img-2{
+    top: 200px;
+    right: 360px;
+}
+.show-img .img-3{
+    top: 370px;
+    right: 120px;
+}
+.show-img .img-4{
+    top: 540px;
+    right: 440px;
+}
+.box{
+    transform: rotate(37.69deg);
+    z-index: 1;
+    width: 1500px;
+    height: 1500px;
+    position: absolute;
+    background: rgba(0, 113, 217, 0.19);
+}
+.box-1{
+    top: -300px;
+    left: -740px;
+}
+.box-2{
+    top: -130px;
+    left: -666px;
+}
+.box-3{
+    top: 720px;
+    left: 854px;
+}
+.box-4{
+    top: -1489px;
+    left: 867px;
+}
+/* for laptop */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .show-img { display: none; }
+    .nav-tab { width: unset; padding: unset; }
+    .nav li { justify-content: center; }
+}
+
+/* for mobile */
+@media only screen and (max-width: 768px) {
+    header img { height: unset; }
+    .main, header {
+        width: 100vw;
+    }
+
+    .header { font-size: 22px; }
+
+    .nav-tab { 
+        width: 100%; 
+        padding: 0;
+    }
+    .nav li { padding: unset; justify-content: center; }
+    .nav li a { font-size: 16px; }
+    .nav li img { width: 70px; height: 70px; }
+    .show-img { display: none; }
+
+    .box-2 { left: 214px; }
+    .box-3 { top: 69px; left: 287px }
+}
