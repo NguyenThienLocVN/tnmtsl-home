@@ -68,7 +68,7 @@ header .banner-bg { height: 120px; width: 100vw; }
     padding: 15px 0;
 }
 .nav li img{
-    width: 120px;
+    width: 100px;
     height: 100px;
     margin: 0 15px 0 0;
 }
@@ -144,7 +144,7 @@ header .banner-bg { height: 120px; width: 100vw; }
     .main, header {
         width: 100vw;
     }
-    .nav { padding-left: 15px; }
+    .nav { padding-left: 20px; }
     .nav li a { line-height: 75px; }
 
     .main {height: 120vh;}
@@ -159,7 +159,7 @@ header .banner-bg { height: 120px; width: 100vw; }
     }
     .nav li { padding: unset;}
     .nav li a { font-size: 16px; }
-    .nav li img { width: 70px; height: 70px; }
+    .nav li img { width: 60px; height: 60px; }
     .show-img { display: none; }
 
     .box-2 { left: 214px; }
